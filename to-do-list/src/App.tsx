@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 import './App.css';
 
@@ -78,7 +77,7 @@ const filtrarTarefas = tasks.filter(task => {
       </div>
 
      <div className="tasks-container">
-      {filteredTasks.length === 0 && (
+      {filtrarTarefas.length === 0 && (
           <p className="empty-hint">Sem tarefas para exibir.</p>
         )}
   {filtrarTarefas.map(task => (
